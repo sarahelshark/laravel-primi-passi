@@ -45,3 +45,34 @@ ok
 
 NB. devi essere nella cartella di progetto (quella con tutti i file) per poter avviare il comando artisan serve altrimenti.
 NB2. quando installi laravel digitando il comando composer assicurati che abbia terminato l'installazione e che non si sia bloccato. Puoi capirlo controllando se nella cartella laravel-primi-passi c'é la cartella vendor se questa non épresente é probabile che l'instllazione non sia andata a buon fine a causa di qualche estensione di PHP mancante. In questo caso, guarda la registrazione.
+
+### COMPOSER
+simile npm, il nostro file delle dipendenze qui si chiama composer.json
+
+in composer.lock e' presente delle librerie installate
+
+come in npm abbiamo i node_modules, in php abbiamo i vendor
+npm-> node_modules # dipendenze lato front-end
+composer-> vendor # dipendenze lato back-end
+
+ovviamente non serve pushare vendor
+
+da ora MAMP lo tengo acceso per la questione server, ma il comando per avviare la mia app sara' 'php artisan serve', il comando nativo di php
+questo comando mi apre un piccolo server in locale alla porta 8000 
+
+### comandi laravel : php artisan/php list per vederli tutti , se ci aggiungi help prima del comando, lo spiega
+-server locale -> php artisan serve
+-creazione files php di qualsiasi tipo
+-correzione bug
+-aggiornamento 
+
+# rapid prcesso reindirizzamentio da url a una determinata view 
+nella cartella rooutes
+
+in web.php definisco le logiche per i collegamenti tra pagine richieste tutte le rotte
+ROUTE:: class di laravel stessa
+richiamo metodo statico get
+
+### BLADE
+e' un template engine php
+

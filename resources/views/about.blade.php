@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>My first lavarel</title>
+        <title>My about paeg</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -15,7 +15,11 @@
     </head>
     <body class="antialiased">
         <h1>
-            welcome
+           About :  {{$name}} {{$lastname}}
         </h1>
+        <div>
+            <img src="/gatto opulento.webp" alt="gatto opulento" >
+ 
+        </div>
     </body>
 </html>

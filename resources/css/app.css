@@ -1,0 +1,10 @@
+body{
+    background-image:url(/public/page-bg.jpg);
+    object-fit: cover;
+    background-repeat:no-repeat;
+}
+img{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
