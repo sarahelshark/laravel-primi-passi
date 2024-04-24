@@ -17,5 +17,8 @@
         <h1>
             welcome
         </h1>
+        <main>
+            @yield('content')
+        </main>
     </body>
 </html>

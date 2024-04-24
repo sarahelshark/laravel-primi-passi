@@ -76,3 +76,9 @@ richiamo metodo statico get
 ### BLADE
 e' un template engine php
 
+### dot notation in laravel
+se voglio raggruppare diverse view, posso farlo con nomecartella.nomepaginadirottamento
+
+### include 
+per introdurre dei parziali, pezzi di template molto grandi 
+- fondamentale nella creazione dei layouts con metodo @yield()
